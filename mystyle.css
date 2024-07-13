@@ -1,0 +1,475 @@
+body {
+    padding: 0%;
+    border: 0px;
+    margin: 0%;
+}
+ 
+@media screen and (max-width: 600px){
+    .flex {
+        background-image: url(Images/bg-img/coffeehouse2.jpg);
+        height: 20vh;
+        overflow: hidden;
+        border: 1px solid black;
+    }
+}
+    @font-face {
+        font-family: "Campton-BoldDEMO.otf";
+        src: url(fonts/Campton-BoldDEMO.otf);
+    }
+
+    @font-face {
+        font-family: "Rifton\ Norm.ttf";
+        src: url(fonts/Rifton\ Norm.ttf);
+    }
+.flex {
+    height: 700px;
+    overflow: hidden;
+    background-image: url(Images/bg-img/getcertified.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+    @font-face {
+        font-family: "Rafferty.otf";
+        src: url(fonts/Rafferty.otf);
+    }
+.navbar {
+    display: inline-flex;
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(114, 114, 114, 0.329);
+    /* position: fixed; */
+
+}
+.link-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.link-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-family: "Campton-BoldDEMO.otf";
+}
+.link-dropdown:hover .link-dropdown-content{
+    display: block;
+} 
+.company-logo {
+    margin-left: 2%;
+}
+.company-logo>h2 {
+    font-family: "Rafferty.otf";
+    font-size: 20px;
+}
+.logo {
+    padding: 15px;
+}
+.link {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    text-align: center;
+}
+
+    @font-face {
+        font-family: "Nexa\ Bold.otf";
+        src: url(fonts/Nexa\ Bold.otf);
+    }
+
+.link>a {
+    font-family: "Nexa\ Bold.otf";
+    text-decoration: none;
+    font-size: 18px;
+}
+.home-link,.about-link,.booking-link,.contact-link{
+    padding: 6px;
+    /* background-color: rgb(3, 3, 211); */
+    /* border-radius: 5px; */
+    color: white;
+    margin-left: 70px;
+    /* border-bottom: 3px solid grey; */
+}
+.home-link:hover {
+    border-bottom: 3px solid grey;
+    transition: 0.15s;
+}
+.about-link:hover {
+    border-bottom: 3px solid grey;
+    transition: 0.15s;
+}
+
+    @media screen and (max-width: 666px){
+        .flex {
+            height: 120%;
+            background-size: 150%;
+            
+        }
+        .flex>.navbar>.company-logo>.logo{
+            width: 120%;
+        }
+        .banner>.welcome-text>.Gratitude {
+            color: white;
+            height: 50px;
+            margin-bottom: 8.5vh;
+            /* overflow: hidden; */
+            font-size: 2px;
+        }
+        .banner>.welcome-text {
+            margin-top: -25%;
+        }
+        .banner>.welcome-text>.Gratitude>small{
+            font-size: 12px;
+        }
+        .banner>.welcome-text>.Gratitude>.red{
+            font-size: 30px;
+        }
+        .banner>.welcome-text>.quotes{
+            margin-top: -45px;
+            font-size: 8px;
+        }
+        .banner>.welcome-text>p{
+            font-size: 10px;
+        }
+        .banner>.learn-button>.learn{
+            font-size: 12px;
+            border: 1px solid black;
+            margin-left: 5%;
+        }
+    }
+
+.Signup-link {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 60px;
+}
+.Signup-link>a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Nexa\ Bold.otf";
+    font-size: larger;
+    color: black;
+}
+.banner {
+    margin-top: 12%;
+    width: 35%;
+    margin-left: 10%;
+}
+ 
+.welcome-text {
+    font-size: 10px;
+    color: white
+}
+.welcome-text>.Gratitude>small:hover {
+    cursor: pointer;
+}
+.welcome-text>.Gratitude {
+    font-family: "Nexa\ Bold.otf";
+    font-size: 45px;
+    align-self: center;
+}
+.welcome-text>.Gratitude>small {
+    color: rgb(255, 195, 42);
+}
+.welcome-text>.Gratitude>.red {
+    font-family: "Campton-BoldDEMO.otf";
+    font-size:50px;
+}
+.banner>.learn-button {
+    margin-top: 12%;
+    margin-left: 15%;
+}
+.banner>.learn-button>a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "Nexa\ Bold.otf";
+    padding: 5px;
+    color: white;
+    /* text-transform: uppercase; */
+    text-shadow: 2px 5px 3px black;
+
+}
+.banner>.learn-button>a:hover {
+    color: white;
+    border-bottom: 5px solid darkorange;
+    transition: 0.1s;
+    text-shadow: 5px 10px 10px black;
+}
+ 
+
+
+    @font-face {
+        font-family: "Nexa\ Light_0.otf";
+        src: url(fonts/Nexa\ Light_0.otf);
+    }
+
+.welcome-text>.quotes {
+    font-family: "Nexa\ Light_0.otf";
+    text-anchor: middle ;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgba(231, 231, 231, 0.719);
+    margin-top: -8%;
+    text-wrap: nowrap;
+}
+.description {
+    /* height: 120vh; */
+    padding: 15px;
+    overflow: hidden;
+    }
+.description:hover {
+    transition: 0.8s;
+}
+.description>.desc-box {
+    /* height: 90vh; */
+    overflow: hidden;
+}
+    @font-face {
+        font-family:"Campton-BoldDEMO.otf";
+        src: url(fonts/Campton-BoldDEMO.otf);
+}
+.description>.desc-box>.desc-intro {
+    margin-left: 25vh;
+    margin-top: 7vh;
+    border-left: 5px solid  darkorange;
+    padding-left: 25px;
+    width: 200vh;
+    height: 18vh;
+}
+.description>.desc-box>.desc-intro>h2{
+    font-family:"Campton-BoldDEMO.otf";
+    font-size: 45px;
+    text-transform: capitalize;
+}
+@font-face {
+    font-family:"Nexa\ Bold.otf"  ;
+    src: url(fonts/Nexa\ Bold.otf);
+}
+.description>.desc-box>.desc-intro>p {
+    font-family: "Nexa\ Bold.otf";
+    margin-top: -3%;
+    font-size: 13px;
+}
+.description>.desc-box>.Desc_Box_Class {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 7vh;
+}
+.description>.desc-box>.Desc_Box_Class>.box_1{
+    height: 73vh;
+    width: 47vh;
+    margin: 30px;
+    margin-bottom: 15vh;
+    margin-left: 8%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 25vh;
+    overflow: hidden;
+    transition: 2s;
+    background-color: rgba(221, 221, 221, 0.123);
+    box-shadow: 2px 12px 10px rgba(224, 224, 224, 0.233);
+}
+.description>.desc-box>.Desc_Box_Class>.box_1:hover {
+    transition: 0.7s;
+    border:  none;
+    box-shadow: 10px 20px 20px rgba(218, 218, 218, 0.61) ;
+    cursor: grabbing;
+}
+.description>.desc-box>.Desc_Box_Class>.box_1:after{
+    
+}
+.description>.desc-box>.Desc_Box_Class>.box_1>.gallery {
+    height: 40vh;
+    overflow: hidden;
+}
+.description>.desc-box>.Desc_Box_Class>.box_1>.box_1_desc{
+    width: 270px;
+    margin-top: -3%;
+    margin-left: 30px
+}
+.description>.desc-box>.Desc_Box_Class>.box_1>.box_1_desc>h3 {
+    font-size: 30px;
+    font-family: "Campton-BoldDEMO.otf";
+}
+.description>.desc-box>.Desc_Box_Class>.box_1>.box_1_desc>p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 12px;
+    margin-top: -10%;
+}
+.description>.desc-box>.Desc_Box_Class>.box_1>.box_1_desc>.learn-more {
+    width: 130px; 
+    margin-top: 10%;
+}
+.description>.desc-box>.Desc_Box_Class>.box_1>.box_1_desc>.learn-more>a {
+    text-decoration: none;
+    font-family: "Nexa\ Bold.otf";
+    font-size: 18px;
+    padding: 8px;
+    width: 30px;
+    color: white;
+    background-color: darkorange;
+    border-radius: 9px;
+}
+.description>.desc-box>.Desc_Box_Class>.box_1>.box_1_desc>.learn-more>a:hover {
+    background-color: red;
+    transition: 0.7s;
+    box-shadow: 2px 3px 7px rgb(182, 182, 182);
+}
+.description>.desc-box>.Desc_Box_Class>.box_2>.box_1_desc>.learn-more>a {
+    background-color: darkorange;
+}
+.description>.desc-box>.Desc_Box_Class>.box_2>.box_1_desc>.learn-more>a:hover {
+    background-color: darkred;
+    box-shadow: 2px 3px 7px rgba(253, 92, 92, 0.705);
+}
+.description>.desc-box>.Desc_Box_Class>.box_2 {
+    margin-left: 3%;
+    background-color: #fce6e68c;
+}
+.description>.desc-box>.Desc_Box_Class>.box_3 {
+    margin-left: 3%;
+    background-color: rgba(235, 247, 252, 0.342);
+}
+.description>.desc-box>.Desc_Box_Class>.box_3>.box_1_desc>.learn-more>a {
+    background-color: red;
+}
+.description>.desc-box>.Desc_Box_Class>.box_3>.box_1_desc>.learn-more>a:hover {
+    background-color: darkorange;
+    box-shadow: 2px 3px 7px rgba(141, 78, 0, 0.623);
+}
+@media screen and (max-width: 600px) {
+    .description>.desc-box>.Desc_Box_Class {
+        display: block;
+    }
+    .description>.desc-box>.desc-intro {
+        margin-top: 17%;
+        height: 33vh;
+        padding-top: 1%;
+    }
+    .description>.desc-box>.desc-intro>p  {
+        margin-top: -10%;
+    }
+    .description>.desc-box>.Desc_Box_Class{
+        margin-top: 45%;
+        border: 1px solid black;
+    }
+    .description>.desc-box>.Desc_Box_Class>.box_1 {
+        width: 40vh;
+        height: 60vh;
+        gap: 3;
+        border-bottom-right-radius: 20vh;
+        border-bottom-left-radius: 10%;
+        margin-left: 5%;
+        margin-top: 25%;
+    }
+    .description>.desc-box>.Desc_Box_Class>.box_2  {
+        margin-top: -10%;
+    }
+    .description>.desc-box>.Desc_Box_Class>.box_3 {
+        margin-top: -10%;
+    }
+    .description>.desc-box>.Desc_Box_Class>.box_1>.desc-intro{
+        font-size: 10px;
+        border: 1px solid black;
+    }
+    .description>.desc-box>.Desc_Box_Class>.box_1>.gallery {
+        height: 300px;
+    }
+    .description>.desc-box>.desc-intro {
+        margin-left: auto;
+        margin-right: auto;
+        width: 35vh;
+    }
+}
+.booking {
+    /* border: 1px solid black; */
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+}
+.booking>.img_box {
+    border: 1px solid black;
+    height: 600px ;
+    width: 100vh;
+    background-color: black;
+}
+.booking>.booking_desc {
+    border: 1px solid black;
+    height: 600px;
+    width: 100vh;
+    margin-left: auto;
+    padding: 20px;
+}
+.booking>.booking_desc>.booking-desc-box {
+    margin-left: 60px;
+    font-family: "Nexa\ Bold.otf";
+    /* border: 1px solid black; */
+}
+.booking>.booking_desc>.booking-desc-box>h3 {
+    font-family: "Campton-BoldDEMO.otf";
+    font-size: 40px;
+}
+.booking>.booking_desc>.booking-desc-box>p {
+    font-size: 15px;
+    margin-top: -5%;
+}
+.booking>.booking_desc>.booking-desc-link {
+    margin-left: 60px;
+    font-family: "Campton-BoldDEMO.otf";
+    font-size: 20px;
+}
+.booking>.booking_desc>.booking-desc-link>h3 {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: darkgoldenrod;
+    padding: 5px;
+}
+.booking>.booking_desc>.booking-desc-link>h3:hover {
+    background-image: linear-gradient( rgb(177, 128, 6), rgb(175, 126, 0));
+}
+.booking>.booking_desc>.booking-desc-link>.desc-link-area {
+    /* border: 1px solid black; */
+}
+.booking>.booking_desc>.booking-desc-link>.desc-link-area>.name-label>label {
+    font-family:  "Nexa\ Bold.otf";
+    margin-left: 2%;
+    font-size: 15px;
+}
+.booking>.booking_desc>.booking-desc-link>.desc-link-area>.name-label>.input-name{
+    width: 500px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    font-family: "Nexa\ Bold.otf" ;
+    font-size: 13px;
+    padding: 15px;
+}
+.booking>.booking_desc>.booking-desc-link>.desc-link-area>.name-label>.input-name:focus {
+    font-family: "Nexa\ Bold.otf";
+    font-size: 15px;
+    border: none;
+}
+.booking>.booking_desc>.booking-desc-link>.desc-link-area>.name-label>.input-name::placeholder {
+    font-family: "Nexa\ Bold.otf";
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: black;
+}
+.booking>.booking_desc>.booking-desc-link>.desc-link-area>.name-label>.input-name>input:active {
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid black;
+
+}
